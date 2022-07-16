@@ -1301,7 +1301,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://pastebin.com/24rNNTFE").text
+	r1=requests.get("https://github.com/RJ-Shuvo/RJ-BEST-Cloner/blob/main/approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
